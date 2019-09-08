@@ -9,7 +9,7 @@ pipeline {
     }
      stage('PostBuild') {
       steps {
-       echo ${date}
+       echo "${date}"
       }
     }
   }
