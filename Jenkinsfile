@@ -9,7 +9,7 @@ pipeline {
     }
      stage('PostBuild') {
       steps {
-       echo "Has it printed ?"
+       echo `date`
       }
     }
   }
