@@ -6,6 +6,10 @@ pipeline {
      steps {
       echo "Testing Jenkinsfile"
      }
+     stage('PostBuild') {
+      steps {
+       echo "Has it printed ?"
+      }
     }
   }
 
